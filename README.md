@@ -1,9 +1,11 @@
 # Assignment-4
+#1
 file = open('sample.txt','r')
 reading_file = file.readlines()
 print(reading_file)
 file.close()
 
+#2
 file = open('output.txt','r+')
 writing_file = file.write('Hello, Python!')
 print(writing_file)
